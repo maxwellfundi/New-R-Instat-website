@@ -136,6 +136,13 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
   keyboard: true, */
 });
 
+var splide = new Splide( '.splide', {
+  type  : 'fade',
+  rewind: true,
+} );
+
+splide.mount();
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 
