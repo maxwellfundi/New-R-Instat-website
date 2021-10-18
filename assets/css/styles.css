@@ -163,7 +163,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-    max-width: 1023px;
+    max-width: 968px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
 }
@@ -176,7 +176,7 @@ img {
 .header {
     width: 100%;
     position: fixed;
-    top:  0;
+    bottom: 0;
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
@@ -213,10 +213,10 @@ img {
     color: var(--first-color);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 968px) {
     .nav__menu {
         position: fixed;
-        bottom:   -100%;
+        bottom: -100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -253,7 +253,7 @@ img {
 .nav__close {
     position: absolute;
     right: 1.3rem;
-    top:  .5rem;
+    bottom: .5rem;
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--first-color)
@@ -312,9 +312,7 @@ img {
 }
 
 .home__blob-img {
-    width: 150px;
-    
-  
+    width: 170px;
 }
 
 .home__data {
@@ -369,7 +367,6 @@ img {
 }
 /*==================== BUTTONS ====================*/
 
-
 .button {
     display: inline-block;
     background-color: var(--first-color);
@@ -377,7 +374,7 @@ img {
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
-    row-gap: .4rem;
+
 }
 
 .button:hover {
@@ -407,7 +404,7 @@ img {
 }
 
 .button--small {
-    padding: .50rem 1rem;
+    padding: .75rem 1rem;
 }
 
 .button--link {
@@ -424,7 +421,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img {
-    width: 1000px;
+    width: 200px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -439,7 +436,7 @@ img {
 
 .about__info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -490,6 +487,7 @@ img {
 
 .skills__title {
     font-size: var(--h3-font-size);
+    justify-content: space-evenly;
 }
 
 .skills__subtitle {
@@ -680,7 +678,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(206, 32, 177, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -744,7 +742,7 @@ img {
 
 .portfolio__img {
     width: max-content;
-    border-radius: .2rem;
+    
     justify-self: center;
 }
 
@@ -935,7 +933,7 @@ img {
 .footer__links {
     display: flex;
     flex-direction: column;
-    row-gap: 1.0rem;
+    row-gap: 1.5rem;
 }
 
 .footer__link:hover {
@@ -962,7 +960,7 @@ img {
 .footer__subtitle,
 .footer__link,
 .footer__social {
-    color: rgb(3, 3, 3);
+    color: #FFF;
 }
 
 /*========== SCROLL UP ==========*/
@@ -1010,7 +1008,7 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 350px) {
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1071,7 +1069,11 @@ img {
 }
 
 /* For medium devices */
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 568px) {
+    .container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -1226,7 +1228,6 @@ img {
             padding-top: .8rem;
         }
         .footer__container {
-            bottom: 0;
             grid-template-columns: repeat(3, 1fr);
         }
         .footer__bg {
@@ -1262,9 +1263,6 @@ img {
     }
     .services__container {
         grid-template-columns: repeat(3, 238px);
-    }
-    .portfolio__img{
-        width: max-content;
     }
     .portfolio__content {
         column-gap: 5rem;
