@@ -151,18 +151,17 @@ img {
     padding: 2rem 0 4rem;
 }
 
-.section__title {
+.section__title,
+.resources__title {
     font-size: var(--h1-font-size);
+    text-align: center;
 }
 
-.section__subtitle {
+.section__subtitle,
+.resources__subtitle {
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-3);
-}
-
-.section__title,
-.section__subtitle {
     text-align: center;
 }
 
