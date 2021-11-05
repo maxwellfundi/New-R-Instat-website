@@ -295,75 +295,82 @@
                     <li>More constructive and effective analyses of climatic data.</li>
                 </ul>
             </div>
-        </div>
-        <script>
-            var coll = document.getElementsByClassName("collapse");
-            var i;
+            <h5 class="section__title">More FAQs</h5>
+            <div class="skills__container container grid">
+                <p>
+                    The above frequently asked questions are very useful for all users but below is a link to more useful and and important update of FAQs.
+                </p>
+                <p>The link below will provide you with all answers you need to know about R-Instat. This will make you understand R-Instat even much easier.</p>
+                <p><a href=" https://docs.google.com/document/d/1sWNCbjLtMAyqWcX3NaxI_oGLKbSEniMBzxLmIbwGgCU/edit?usp=sharing">The latest update of FAQs</a></p>
+            </div>
+            <script>
+                var coll = document.getElementsByClassName("collapse");
+                var i;
 
-            for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.maxHeight) {
-                        content.style.maxHeight = null;
-                    } else {
-                        content.style.maxHeight = content.scrollHeight + "px";
-                    }
-                });
-            }
-        </script>
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.maxHeight) {
+                            content.style.maxHeight = null;
+                        } else {
+                            content.style.maxHeight = content.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
+            <!--==================== FOOTER ====================-->
+            <footer class="footer">
 
-            <div class="footer__bg">
-                <div class="footer__container container grid">
-                    <div>
-                        <h1 class="footer__title">R-Instat</h1>
-                        <span class="footer__subtitle">statistical software</span>
+                <div class="footer__bg">
+                    <div class="footer__container container grid">
+                        <div>
+                            <h1 class="footer__title">R-Instat</h1>
+                            <span class="footer__subtitle">statistical software</span>
+                        </div>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="Developers.html" class="footer__link">Developers</a>
+                            </li>
+                            <li>
+                                <a href="Download.html" class="footer__link">Downloads</a>
+                            </li>
+                            <li>
+                                <a href="Contact.html" class="footer__link">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="footer__socials">
+                            <a href="http://facebook.com" target="_blank" class="footer__social">
+                                <i class="uil uil-facebook"></i>
+                            </a>
+                            <a href="http://instagram.com" target="_blank" class="footer__social">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="http://twitter.com/" target="_blank" class="footer__social">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                        </div>
                     </div>
 
-                    <ul class="footer__links">
-                        <li>
-                            <a href="Developers.html" class="footer__link">Developers</a>
-                        </li>
-                        <li>
-                            <a href="Download.html" class="footer__link">Downloads</a>
-                        </li>
-                        <li>
-                            <a href="Contact.html" class="footer__link">Contact</a>
-                        </li>
-                    </ul>
 
-                    <div class="footer__socials">
-                        <a href="http://facebook.com" target="_blank" class="footer__social">
-                            <i class="uil uil-facebook"></i>
-                        </a>
-                        <a href="http://instagram.com" target="_blank" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                        <a href="http://twitter.com/" target="_blank" class="footer__social">
-                            <i class="uil uil-twitter-alt"></i>
-                        </a>
-                    </div>
                 </div>
 
+            </footer>
 
-            </div>
-
-        </footer>
-
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
+            <!--==================== SCROLL TOP ====================-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="uil uil-arrow-up scrollup__icon"></i>
+            </a>
 
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+            <!--==================== SWIPER JS ====================-->
+            <script src="assets/js/swiper-bundle.min.js"></script>
 
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
+            <!--==================== MAIN JS ====================-->
+            <script src="assets/js/main.js"></script>
 </body>
 
 </html>
