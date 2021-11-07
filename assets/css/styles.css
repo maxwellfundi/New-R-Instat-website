@@ -609,6 +609,8 @@ img {
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    width: 150px;
+    display: inline-block;
 }
 
 .skills__bar,
