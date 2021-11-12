@@ -609,7 +609,7 @@ img {
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    width: 120px;
+    width: 110px;
     display: inline;
     
 }
