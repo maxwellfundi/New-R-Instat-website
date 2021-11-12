@@ -553,8 +553,15 @@ img {
 }
 
 .about__buttons {
-    display: flex;
-    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
 }
 
 
@@ -611,7 +618,6 @@ img {
     font-weight: var(--font-medium);
     width: 120px;
     justify-self: unset;
-    
 }
 
 .skills__bar,
@@ -1156,7 +1162,6 @@ img {
         font-weight: var(--font-medium);
         width: 100px;
     }
-    
     .qualification__data {
         gap: .5rem;
     }
@@ -1391,7 +1396,6 @@ img {
         column-gap: 5rem;
         width: max-content
     }
-    
     .swiper-portfolio-icon {
         font-size: 3.5rem;
     }
