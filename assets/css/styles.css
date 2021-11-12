@@ -609,8 +609,9 @@ img {
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    width: 100px;
-    display: inline-block;
+    width: 120px;
+    justify-self: unset;
+    
 }
 
 .skills__bar,
@@ -1150,6 +1151,12 @@ img {
     .skills__title {
         font-size: var(--normal-font-size);
     }
+    .skills__name {
+        font-size: var(--normal-font-size);
+        font-weight: var(--font-medium);
+        width: 100px;
+    }
+    
     .qualification__data {
         gap: .5rem;
     }
@@ -1270,7 +1277,7 @@ img {
             column-gap: 4rem;
         }
         .about__img {
-            width: 350px;
+            width: 250px;
         }
         .about__description {
             text-align: initial;
@@ -1384,6 +1391,7 @@ img {
         column-gap: 5rem;
         width: max-content
     }
+    
     .swiper-portfolio-icon {
         font-size: 3.5rem;
     }
