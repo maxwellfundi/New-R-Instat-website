@@ -610,7 +610,7 @@ img {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     width: 120px;
-    display: inline-block;
+    display: inline;
     
 }
 
